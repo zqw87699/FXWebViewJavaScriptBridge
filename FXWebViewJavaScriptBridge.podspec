@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FXWebViewJavaScriptBridge"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "JS桥接框架"
 
   s.homepage     = "https://github.com/zqw87699/FXWebViewJavaScriptBridge"
@@ -19,8 +19,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.resources = 'Classes/Resources/fxjsbridge.js'
-  s.resources = 'Classes/Resources/htmlapi.js'
+  s.resources = 'Classes/Resources/*'
 
   s.source_files = 'Classes/*'
   s.public_header_files = 'Classes/*.h'
