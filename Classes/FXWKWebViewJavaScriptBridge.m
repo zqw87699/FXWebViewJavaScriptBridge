@@ -133,7 +133,7 @@ static NSString *jsBridgeCodeCache = nil;
     FXLogDebug(@"FXWVJSB %@: %@",action,json);
 #else
     if ([json isKindOfClass:[NSString class]]) {
-        WJLogDebug(@"FXWVJSB %@: %@",action,json);
+        FXLogDebug(@"FXWVJSB %@: %@",action,json);
     }
 #endif
 }
